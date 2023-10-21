@@ -1,0 +1,113 @@
+#span {
+    font-weight: 600;
+    color: rgb(47, 47, 73);
+    font-size: 40px;
+}
+
+.cards {
+    padding: 15px;
+    box-shadow: 0 0 25px -12px grey;
+    width: 40vw;
+    height: 42vh;
+    border-radius: 10px;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+
+.form_and_map {
+    width: 40%;
+    line-height: 10px;
+    display: flex;
+    min-height: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#div2 {
+    margin: 50px 0;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 50px 0 0 0;
+}
+
+#btn {
+    width: max-content;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 120ms;
+    cursor: pointer;
+    height: max-content;
+    padding: 15px 25px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 0, 174);
+    background-color: rgb(84, 0, 174);
+}
+
+
+#btn:hover {
+    background-color: white;
+    color: rgb(62, 0, 128);
+    box-shadow: 0 0 15px -5px rgb(62, 0, 128);
+}
+
+.inputs {
+    margin-bottom: 10px;
+    resize: none;
+    transition: all 50ms;
+    outline: none;
+    border-radius: 5px;
+    border-style: none;
+    border: 1.5px solid rgb(44, 44, 127);
+    padding: 8px;
+}
+
+#image {
+    width: 100%;
+
+}
+
+#textarea {
+    height: max-content;
+    min-height: 150px;
+}
+
+.inputs:focus {
+    border: 3px solid rgb(44, 44, 127);
+}
+
+.inputs::placeholder {
+    color: rgb(194, 194, 194);
+    font-weight: 600;
+}
+
+@media all and (max-width:1200px) {
+    .form_and_map {
+        line-height: normal;
+        width: 100%;
+    }
+
+
+
+    #div2 {
+        flex-direction: column;
+    }
+
+    #p {
+        display: flex;
+        line-height: 25px;
+        flex-direction: column;
+    }
+
+}

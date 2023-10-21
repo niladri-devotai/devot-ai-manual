@@ -1,0 +1,111 @@
+#div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn {
+    font-weight: 900;
+    width: max-content;
+    transition: all 200ms;
+    cursor: pointer;
+    height: max-content;
+    padding: 10px 25px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 0, 174);
+    background-color: rgb(84, 0, 174);
+}
+
+#span {
+    font-size: 3em;
+}
+
+#btn:hover {
+    background-color: white;
+    color: rgb(62, 0, 128);
+    box-shadow: 0 0 15px -5px rgb(62, 0, 128);
+}
+
+.p {
+    position: relative;
+    left: 15px;
+}
+
+#div2 {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cardContainer {
+    scroll-behavior: smooth;
+    transition: all 200ms;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+    height: max-content;
+    overflow-x: scroll;
+}
+
+
+#cardContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.readMore {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: 900;
+}
+
+.images {
+    width: 100%;
+    background-color: rgb(8, 8, 20);
+    height: 140px;
+    object-fit: contain;
+}
+
+#cards {
+    overflow: clip;
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    color: rgb(76, 76, 187);
+    transition: all 200ms;
+    width: 250px;
+    box-shadow: 0 0 15px -5px grey;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.em {
+    display: none;
+    transition: all 150ms;
+}
+
+#cards:hover .em {
+    display: inline-block;
+}
+
+#cards:hover .cardDetailsIcon {
+    transform: scale(1.5);
+}
+
+#cards:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px -12px rgb(64, 64, 64);
+}
+
+@media all and (max-width:1200px) {
+    #div {
+        flex-direction: column;
+    }
+}

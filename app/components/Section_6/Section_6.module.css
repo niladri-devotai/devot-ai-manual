@@ -1,0 +1,45 @@
+#span {
+    font-size: 40px;
+}
+
+#div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    justify-content: flex-start;
+}
+
+.cards {
+    position: relative;
+    padding: 25px;
+    box-shadow: 0 0 25px -12px grey;
+    width: 38%;
+    height: 42vh;
+    border-radius: 10px;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+#div2 {
+    margin: 50px 0;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media all and (max-width:1200px) {
+    .cards {
+        width: 100%;
+    }
+
+    #div2 {
+        flex-wrap: wrap;
+    }
+
+    #div {
+        width: 100%;
+    }
+}

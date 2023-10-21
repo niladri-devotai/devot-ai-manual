@@ -1,0 +1,12 @@
+export { default as Navbar } from './Navigation/Navigation';
+export { default as Section_1 } from './Section_1/Section_1';
+export { default as Section_2 } from './Section_2/Section_2';
+export { default as Section_3 } from './Section_3/Section_3';
+export { default as Section_4 } from './Section_4/Section_4';
+export { default as Section_5 } from './Section_5/Section_5';
+export { default as Section_6 } from './Section_6/Section_6';
+export { default as Section_7 } from './Section_7/Section_7';
+export { default as Companies } from './Companies/Companies';
+export { default as MiniBanner } from './MiniBanner/MiniBanner';
+export { default as Footer } from './Footer/Footer'
+export { default as Section_Form } from './Section_Form/Section_Form';

@@ -1,0 +1,65 @@
+#caseStudyContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+
+}
+
+.cards {
+    overflow: clip;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+    color: #4600A9;
+    transition: all 100ms;
+    width: 275px;
+    font-size: 16px;
+    box-shadow: 0 0 15px -8px grey;
+    height: 295px;
+    border-radius: 10px;
+    border: 1px solid #ffde59ea;
+}
+
+.cards:hover {
+    border: 3px solid rgb(8, 8, 67);
+    transform: scale(1.02);
+    color: white;
+    background-color: rgb(23, 23, 60);
+    box-shadow: 0 0 35px -18px rgb(75, 75, 176);
+}
+
+.images {
+    width: 100%;
+    background-color: rgb(8, 8, 20);
+    height: 140px;
+    object-fit: contain;
+}
+
+.p {
+    position: relative;
+    left: 15px;
+}
+
+#span {
+    font-size: 3em;
+}
+
+.em {
+    display: none;
+    transition: all 150ms;
+}
+
+.cards:hover .em {
+    display: inline-block;
+}
+
+@media all and (max-width:1200px) {
+    #caseStudyContainer {
+        grid-template-columns: auto;
+    }
+}

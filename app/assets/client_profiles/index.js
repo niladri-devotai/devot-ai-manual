@@ -1,0 +1,1 @@
+export { default as Profile1 } from './Profile.webp';

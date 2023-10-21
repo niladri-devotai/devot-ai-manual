@@ -1,0 +1,10 @@
+export { default as app_development } from './app_development.svg';
+export { default as cloud_computing } from './cloud_computing.svg';
+export { default as Data_science_and_analytics } from './Data_science_and_analytics.svg';
+export { default as natural_language_processing } from './natural_language_processing.svg';
+export { default as operations_research } from './operations_research.svg';
+export { default as image_recognition_and_computer_vision } from './image_recognition_and_computer_vision.svg';
+export { default as personalized_marketing } from './personalized_marketing.svg';
+export { default as recommendation_systems } from './recommendation_systems.svg';
+export { default as smart_assistant } from './smart_assistant.svg';
+export { default as web_development } from './web_development.svg';

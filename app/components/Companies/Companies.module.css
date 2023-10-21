@@ -1,0 +1,12 @@
+.images {
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    margin: 0 25px;
+}
+
+#heading {
+    font-weight: 600;
+    color: #334C65;
+    font-size: 40px;
+}
